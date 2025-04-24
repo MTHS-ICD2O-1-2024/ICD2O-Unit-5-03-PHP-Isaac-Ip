@@ -29,25 +29,31 @@
       <div class="right-image">
         <img src="./images/movie_ratings.jpg" alt="movie rating" width="250" />
       </div>
-      <br />
-      <div class="page-content">Enter in your age:
-      </div>
       <div class="page-content-php">
-        <form action="answer.php" method="GET">
-          <br />
-          <div class="mdl-textfield mdl-js-textfield">
-            Age:
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="age" step="1">
-            <label class="mdl-textfield__label" for="age">Age Here ...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          <br />
-          <!-- Accent-colored raised button with ripple -->
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            type="submit">
-            Calculate
-          </button>
-        </form>
+        <div id="user-info">
+          <?php
+          $age = $_GET["age"];
+
+              // process 
+        if ($age >= 17) {
+        echo "You can watch an R movie alone.";
+        <br>
+        echo "Thank you for verifying your age.";
+} else if ($age >= 13) {
+        echo "You can watch a PG-13 movie alone.";
+        <br>
+        echo "Thank you for verifying your age.";
+} else if ($age >= 5) {
+        echo "You can watch a G or PG movie alone.";
+        <br>
+        echo "Thank you for verifying your age.";
+} else {
+        echo "You are too young to watch movies.";
+        <br>
+        echo "Thank you for verifying your age.";
+}
+          ?>
+        </div>
       </div>
     </main>
   </div>
