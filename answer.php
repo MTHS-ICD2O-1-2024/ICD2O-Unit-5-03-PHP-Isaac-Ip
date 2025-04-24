@@ -30,26 +30,26 @@
         <img src="./images/movie_ratings.jpg" alt="movie rating" width="250" />
       </div>
       <div class="page-content-php">
-        <div id="user-info">
+        <div id="submit">
           <?php
           $age = $_GET["age"];
 
               // process 
         if ($age >= 17) {
         echo "You can watch an R movie alone.";
-        <br>
+
         echo "Thank you for verifying your age.";
 } else if ($age >= 13) {
         echo "You can watch a PG-13 movie alone.";
-        <br>
+
         echo "Thank you for verifying your age.";
 } else if ($age >= 5) {
         echo "You can watch a G or PG movie alone.";
-        <br>
+
         echo "Thank you for verifying your age.";
 } else {
         echo "You are too young to watch movies.";
-        <br>
+
         echo "Thank you for verifying your age.";
 }
           ?>
