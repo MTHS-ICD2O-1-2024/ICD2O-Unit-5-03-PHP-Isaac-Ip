@@ -27,10 +27,10 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/movie_ratings.jpg" alt="movie rating" width="250" />
+        <img src="./images/movie_ratings.jpg" alt="movie_ratings" width="250" />
       </div>
       <br />
-      <div class="page-content">Enter in your age:
+      <div class="page-content">Please enter your age:
       </div>
       <div class="page-content-php">
         <form action="answer.php" method="GET">
@@ -38,17 +38,16 @@
           <div class="mdl-textfield mdl-js-textfield">
             Age:
             <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="age" step="1" />
+              <input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="age" name="age" step="1" />
               <label class="mdl-textfield__label" for="age">Age Here ...</label>
               <span class="mdl-textfield__error">Input is not a number!</span>
             </div>
-            <br />
-            <br>
-            <br>
+          </div>
+          <br />
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
             type="submit">
-            Calculate
+            Check Age
           </button>
         </form>
       </div>
