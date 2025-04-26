@@ -38,19 +38,19 @@
           // process 
           if ($age >= 17) {
             echo "You are: " . $age . " years old.";
-            echo "You can watch an R movie alone.";
+            echo " You can watch an R movie alone.";
             echo " Thank you for verifying your age.";
           } else if ($age >= 13) {
             echo "You are: " . $age . " years old.";
-            echo "You can watch a PG-13 movie alone.";
+            echo " You can watch a PG-13 movie alone.";
             echo " Thank you for verifying your age.";
           } else if ($age >= 5) {
             echo "You are: " . $age . " years old.";
-            echo "You can watch a G or PG movie alone.";
+            echo " You can watch a G or PG movie alone.";
             echo " Thank you for verifying your age.";
           } else {
             echo "You are: " . $age . " years old.";
-            echo "You are too young to watch movies.";
+            echo " You are too young to watch movies.";
             echo " Thank you for verifying your age.";
           }
           ?>
