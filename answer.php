@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Positive and Negative #, in PHP" />
+  <meta name="description" content="Watch a Movie, in PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Isaac Ip" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>Positive and Negative #, in PHP</title>
+  <title>Watch a Movie, in PHP</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Positive and Negative #, in PHP</span>
+        <span class="mdl-layout-title">Watch a Movie, in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
